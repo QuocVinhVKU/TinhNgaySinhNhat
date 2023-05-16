@@ -1,5 +1,5 @@
 # TinhNgaySinhNhat
-Chúng ta nhập ngày sinh dưới định dạng "dd/MM/yyyy" từ bàn phím bằng cách sử dụng Console.ReadLine() và DateTime.Parse() để chuyển đổi chuỗi nhập vào thành đối tượng DateTime đại diện cho ngày sinh.
+Chúng ta nhập ngày sinh dưới định dạng "dd/MM/yyyy" từ bàn phím bằng cách sử dụng Console.ReadLine() và DateTime.ParseExact() để chuyển đổi chuỗi nhập vào thành đối tượng DateTime đại diện cho ngày sinh.
 
 Sau đó, chúng ta lấy ngày hiện tại bằng DateTime.Now và tạo một đối tượng DateTime mới cho ngày sinh nhật trong năm hiện tại với cùng tháng và ngày như ngày sinh và năm là năm hiện tại. Nếu ngày sinh nhật đã qua trong năm nay, chúng ta thêm 1 năm vào ngày sinh nhật để lấy ngày sinh nhật trong năm tiếp theo.
 
